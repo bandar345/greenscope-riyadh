@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Secrets / credentials
+credentials*.json
+service-account*.json
+.config/earthengine/
+
+# Large geospatial data — keep in Google Drive, NOT git
+data/raw/*
+data/processed/*
+*.tif
+*.tiff
+*.nc
+*.h5
+*.zip
+
+# OS / Office temp files
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx
